@@ -113,7 +113,7 @@ public final class StaticItemListener implements Listener {
         }
 
         String command = plugin.getConfig().getString("config.command", "profile");
-        player.performCommand(command);
+        player.chat("/" + command);
         commandCooldown.put(playerUUID, currentTime);
     }
 
