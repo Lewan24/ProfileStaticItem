@@ -1,0 +1,21 @@
+﻿config:
+  # plugin's permissions // op has these by default
+  # change needs server restart
+  permissions:
+    main: "staticItem"
+    reload: "reload"
+  command: "profile"
+  # Makes item unmovable in inventory
+  # change needs server restart
+  shouldItemBeStatic: true
+  # set as true if you want to use external items like from other plugins.
+  # if true then use in itemType as: PLUGIN_NAME:ITEM
+  # At this moment does not have any impact. external items are not implemented yet
+  externalItem: false
+  # item type by default it uses 'MINECRAFT:' but can change in next boolean to custom types
+  itemType: "NETHER_STAR"
+  itemName: "&6My Profile"
+  itemLore:
+    - "&7"
+    - "&6LMB&7, to open &6Profile"
+  itemEnchant: true
