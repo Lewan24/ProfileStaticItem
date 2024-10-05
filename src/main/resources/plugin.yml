@@ -1,0 +1,9 @@
+main: lewan24.profileStaticItem.ProfileStaticItem
+name: ProfileStaticItem
+
+version: '1.0-SNAPSHOT'
+api-version: '1.21'
+
+authors: [ Lewan24 ]
+description: Simple plugin to handle static item in inventory that opens selected command while clicked
+website: https://github.com/Lewan24
